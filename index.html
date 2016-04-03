@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Rebecca C. Qu | Web Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body class="is-loading">
+			<div id="wrapper">
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/me.jpg" /></span>
+							<h1>Rebecca C. Qu</h1>
+							<p>Full-Stack Web Developer</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="https://twitter.com/BeksQu" class="fa-twitter"></a></li>
+								<li><a href="https://www.instagram.com/beksqu" class="fa-instagram"></a></li>
+								<li><a href="https://github.com/RebeccaQu" class="fa-github"></a></li>
+								<li><a href="https://ca.linkedin.com/in/rebeccaqu" class="fa-linkedin"></a></li>
+							</ul>
+						</footer>
+					</section>
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; rebeccaqu.io</li>
+						</ul>
+					</footer>
+			</div>
+
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	</body>
+</html>
