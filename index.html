@@ -1,43 +1,135 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Rebecca C. Qu | Web Developer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	</head>
-	<body class="is-loading">
-			<div id="wrapper">
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/me.jpg" /></span>
-							<h1>Rebecca C. Qu</h1>
-							<p>Full-Stack Web Developer</p>
-						</header>
-						<footer>
-							<ul class="icons">
-								<li><a href="https://twitter.com/BeksQu" class="fa-twitter"></a></li>
-								<li><a href="https://www.instagram.com/beksqu" class="fa-instagram"></a></li>
-								<li><a href="https://github.com/RebeccaQu" class="fa-github"></a></li>
-								<li><a href="https://ca.linkedin.com/in/rebeccaqu" class="fa-linkedin"></a></li>
-							</ul>
-						</footer>
-					</section>
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; rebeccaqu.io</li>
-						</ul>
-					</footer>
-			</div>
 
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-	</body>
+<head>
+	<title>Ben & Beks | Wedding</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload-0 is-preload-1">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Home -->
+		<article id="home" class="panel special">
+			<div class="image">
+				<img src="images/pic01.jpg" alt="" data-position="left center" />
+			</div>
+			<div class="content">
+				<div class="inner">
+					<header>
+						<h1>Rebecca</br>&amp;</br>Benjamin</h1>
+						<p>September 30, 2018</p>
+					</header>
+					<nav id="nav">
+						<ul class="actions stacked special animated spinY">
+							<li>
+								<a href="#work" class="button">Registry</a>
+							</li>
+							<!-- <li>
+								<a href="#about" class="button">...</a>
+							</li> -->
+							<li>
+								<a href="#contact" class="button">Details</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</article>
+
+		<!-- Registry -->
+		<article id="work" class="panel secondary">
+			<div class="image">
+				<img src="images/pic02.jpg" alt="" data-position="center center" />
+			</div>
+			<div class="content">
+				<ul class="actions animated spinX">
+					<li>
+						<a href="#" class="button small back">Back</a>
+					</li>
+				</ul>
+				<div class="inner">
+					<header>
+						<h2>Registry</h2>
+						<p>The most important gift
+							</br> to us is having you share
+							</br> in our special day
+						</p>
+					</header>
+					<p>
+						</br>But if you wish to contribute in some way,
+						</br>we would love a few pennies to put in our pot
+						</br>for our honeymoon trip after tying the knot!
+					</p>
+				</div>
+			</div>
+		</article>
+
+		<!-- Details -->
+		<article id="contact" class="panel secondary">
+			<div class="image">
+				<img src="images/pic04.jpg" alt="" data-position="bottom center" />
+			</div>
+			<div class="content">
+				<ul class="actions animated spinX">
+					<li>
+						<a href="#" class="button small back">Back</a>
+					</li>
+				</ul>
+				<div class="inner">
+					<header>
+						<h2>Details</h2>
+						<p>Subscribe &amp; stay in the loop!</p>
+					</header>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">First Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field half">
+								<label for="name">Last Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" required />
+							</div>
+							<div class="field">
+								<label for="phone">Phone Number</label>
+								<input type="text" name="phone" id="phone" required />
+							</div>
+						</div>
+						<ul class="actions">
+							<li>
+								<a href="" class="button submit">Tell me moar</a>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</article>
+
+		<footer id="footer">
+			<p class="copyright">&copy; benandbekskissandtell</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
